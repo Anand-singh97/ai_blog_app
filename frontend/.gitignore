@@ -1,0 +1,36 @@
+# Dependency directories
+node_modules/
+/.pnp
+.pnp.js
+
+# Production build
+/dist/
+/build/
+
+# Cache directories
+.cache/
+.next/
+out/
+
+# IDE files
+.vscode/
+.idea/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Tailwind CSS generated files
+/dist/css/*.css
+/src/styles/generated.css
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
